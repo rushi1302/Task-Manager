@@ -22,7 +22,7 @@ function NewTask({ onAdd }) {
         value={enteredTask}
       />
       <button
-        className="text-stone-1000 hover:text-stone-950 font-bold border-4 px-4 py2 border-blue-100 hover:text-stone-600"
+        className="text-stone-1000 hover:text-stone-600 font-bold border-4 px-4 py2 border-blue-100"
         onClick={handleClick}
         disabled={enteredTask.length === 0}>
         Add Task
